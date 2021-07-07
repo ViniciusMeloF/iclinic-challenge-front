@@ -1,0 +1,59 @@
+/* DARK SIDE THEME */
+.darkTheme {
+  margin-bottom: 93px;
+  padding-top: 35px;
+}
+
+.darkTheme .backButton {
+  color: var(--color-white);
+}
+
+.darkTheme .backButton svg path {
+  fill: var(--color-white);
+}
+/* -------------------------------------------- */
+
+/* LIGHT SIDE THEME */
+.lightTheme {
+  margin-bottom: 93px;
+  padding-top: 35px;
+}
+
+.lightTheme .backButton {
+  color: var(--color-dark);
+}
+
+.lightTheme .backButton svg path {
+  fill: var(--color-dark);
+}
+/* -------------------------------------------- */
+
+/* DEFAULT */
+.backButton {
+  margin-left: 48px;
+
+  width: 129px;
+  height: 47px;
+  
+  display: flex;
+  align-items: center;
+
+  background: none;
+  border: none;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  cursor: pointer;
+
+  transition: opacity 0.3s;
+}
+
+.backButton:hover {
+  opacity: 0.8;
+}
+
+.backButton span {
+  margin-left: 15px;
+}
+/* -------------------------------------------- */

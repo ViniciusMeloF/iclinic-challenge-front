@@ -1,0 +1,29 @@
+:root {
+  --color-blue: #2C97D1;
+  --color-dark: #2A2A2A;
+  --color-white: #FFF;
+  --background-dark: #2B2B2B;
+  --background-light: #FBFE63;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
