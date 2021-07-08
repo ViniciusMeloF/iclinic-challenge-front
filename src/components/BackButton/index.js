@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import {ReactComponent as ArrowLeft} from '../../assets/arrow_left.svg';
+import { ReactComponent as ArrowLeft } from "../../assets/arrow_left.svg";
 
-import S from './BackButton.module.css';
+import S from "./BackButton.module.css";
 
 const BackButton = ({ force }) => {
   let forceSideTheme;
-  
-  if (force === 'dark') {
+
+  if (force === "dark") {
     forceSideTheme = S.darkTheme;
   } else {
     forceSideTheme = S.lightTheme;
@@ -21,7 +21,7 @@ const BackButton = ({ force }) => {
         <span>back</span>
       </Link>
     </div>
-  )
-}
+  );
+};
 
 export default BackButton;
